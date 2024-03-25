@@ -11,8 +11,9 @@
 </head>
 <body>
         <header>
-            <div>
-                <nav class="mt-1 mx-auto">
+            <div class="container">
+                <img src="" alt="">
+                <nav>
                     <a href="#">Início</a>
                     <a href="#">Cursos</a>
                     <a href="#">Sobre</a>
@@ -23,31 +24,31 @@
         </header>
     <main>
         <section class="hero-section">
-            <div>
-                <h1 class="mt-2">Desvende o <span class="text-primary decoration">código</span> do futuro conosco!</h1>
-                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque molestiae corporis ut esse reiciendis officiis ratione exercitationem amet cumque aperiam deserunt provident voluptatem blanditiis neque, saepe sunt laboriosam ipsum consequuntur.</p>
-                <a href="#" class="button">Comece agora</a>
-            </div>
+                <div class="container row-reverse">
+                    <img src="" alt="">
+                    <div>
+                        <h1 class="mt-2">Desvende o <span class="text-primary decoration">código</span> do futuro conosco!</h1>
+                        <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <a href="#" class="button">Comece agora</a>
+                    </div>
+                </div>
         </section>
         <section class="courses-section">
             <div class="cards">
                 <article class="card">
                     <strong>Java Scipt</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error corrupti, quidem repellat nemo neque eligendi libero!</p>
-                    <a href="#"></a>
-                    <img src="" alt="seta">
+                    <a href="#"><img src="img/arrow-right.svg" alt="seta"></a>
                 </article>
                 <article class="card">
                     <strong>Python</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error corrupti, quidem repellat nemo neque eligendi libero!</p>
-                    <a href="#"></a>
-                    <img src="" alt="seta">
+                    <a href="#"><img src="img/arrow-right.svg" alt="seta"></a>
                 </article>
                 <article class="card">
                     <strong>Linguagem c</strong>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error corrupti, quidem repellat nemo neque eligendi libero!</p>
-                    <a href="#"></a>
-                    <img src="" alt="seta">
+                    <a href="#"><img src="img/arrow-right.svg" alt="seta"></a>
                 </article>
             </div>
         <section>
@@ -56,23 +57,25 @@
         </section>
     </main>
     <footer>
-        <div>
-            <img src ="" alt="logo" class="mt-1 mb-1">
-            <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem excepturi, enim maxime laborum consectetur reiciendis eveniet nemo asperiores.</p>
+        <div class="container">
+            <div class="about-column">
+                <img src ="" alt="logo" class="mt-1 mb-1">
+                <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem excepturi, enim maxime laborum consectetur reiciendis eveniet nemo asperiores.</p>
+            </div>
+            <nav class="mb-2">
+                <a href="#">Início</a>
+                <a href="#">Cursos</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contatos</a>
+            </nav>
+            <form class="newsletter-form">
+                <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+                <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu email">
+                <button class="button mb-2">
+                    Quero receber
+                </button>
+            </form>
         </div>
-        <nav class="mb-2">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contatos</a>
-        </nav>
-        <form class="newsletter-form">
-            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu email">
-            <button class="button mb-2">
-                Quero receber
-            </button>
-        </form>
     </footer>
 </body>
 </html>

@@ -34,6 +34,7 @@ header img {
 header nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 1rem auto 0;
 }
 
 nav a {
@@ -92,7 +93,7 @@ h2 {
 
 .hero-section .button::after {
     content: '';
-    background: url("arrow-curve.svg");
+    background: url("img/arrow-curve.svg");
     position: absolute;
     top: 5rem;
     right: -4rem;
@@ -107,8 +108,9 @@ h2 {
 
 .decoration::after {
     content: '';
-    background: url("three-dashes.svg");
-    top: -0.75rem;
+    background: url("img/three-dashes.svg");
+    position: absolute;
+    top: -0.25rem;
     height: 36px;
     width: 40px;
 }
@@ -236,5 +238,35 @@ footer nav a {
     header nav,
     header .button {
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 72rem) {
+    .container {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 72rem;
+    }
+
+    .container.row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .about-column {
+        flex: 2;
+    }
+
+    .about-column p {
+        font-size: 1.25rem;
+        max-width: 16rem;
+    }
+
+    footer nav {
+        flex: 1;
+    }
+
+    .newsletter-form {
+        flex: 3;
     }
 }
