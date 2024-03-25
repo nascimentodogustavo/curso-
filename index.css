@@ -151,6 +151,32 @@ h2 {
     width: fit-content;
 }
 
+/* Rodapé */
+
+footer {
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+    display: block;
+    padding-left: 0;
+}
+
+.newsletter-form label {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.newsletter-form input {
+    border: 2px solid var(--color-black);
+    box-shadow: 4px 4px 0 var(--color-black);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+/* Utilitarios*/
 .mt-1 {
     margin-top: 1rem;
 }
@@ -178,4 +204,37 @@ h2 {
 
 .text-center {
     text-align: center;
+}
+
+/*Responsividade*/
+
+@media screen and (min-width: 40rem) {
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card.card:nth-child(2n) {
+        margin-top: 1rem;
+    }
+} 
+
+@media screen and (min-width: 48rem) {
+    header div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header img,
+    header nav,
+    header .button {
+        margin: 0;
+    }
 }

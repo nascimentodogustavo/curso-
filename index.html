@@ -10,15 +10,17 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <nav class="mt-1 mx-auto">
-            <a href="#">Início</a>
-            <a href="#">Cursos</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contatos</a>
-        </nav>
-        <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
-    </header>
+        <header>
+            <div>
+                <nav class="mt-1 mx-auto">
+                    <a href="#">Início</a>
+                    <a href="#">Cursos</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contatos</a>
+                </nav>
+                <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+            </div>
+        </header>
     <main>
         <section class="hero-section">
             <div>
@@ -49,24 +51,27 @@
                 </article>
             </div>
         <section>
-            <h2>E <span class="text-primary">varios</span> outros!</h2>
-            <a href="#">Conhecer os cursos</a>
+            <h2 class="text-center">E <span class="text-primary">varios</span> outros!</h2>
+            <a href="#" class="button" mt-2 mx-auto>Conhecer os cursos</a>
         </section>
     </main>
     <footer>
         <div>
-            <img src ="" alt="logo" class=>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem excepturi, enim maxime laborum consectetur reiciendis eveniet nemo asperiores.</p>
+            <img src ="" alt="logo" class="mt-1 mb-1">
+            <p class="mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit quidem excepturi, enim maxime laborum consectetur reiciendis eveniet nemo asperiores.</p>
         </div>
-        <nav>
+        <nav class="mb-2">
             <a href="#">Início</a>
             <a href="#">Cursos</a>
             <a href="#">Sobre</a>
             <a href="#">Contatos</a>
         </nav>
-        <form>
-            <label for="email">Receba materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite seu email">
+        <form class="newsletter-form">
+            <label for="email" class="mb-1">Receba materiais gratuitos no seu email</label>
+            <input type="text" name="email" id="email" class="mb-1" placeholder="Digite seu email">
+            <button class="button mb-2">
+                Quero receber
+            </button>
         </form>
     </footer>
 </body>
