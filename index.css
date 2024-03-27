@@ -6,15 +6,15 @@
 }
 
 :root {
-    --color-primary: #008FFC;
-    --color-secondary: #015da3;
+    --color-primary: #ED4D1B;
+    --color-secondary: #FF9A3C;
     --color-black: #000;
     --color-white: #fff; 
 }
 
 body {
     padding: 0 1rem;
-    
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%)
 }
 
 header,
@@ -77,6 +77,7 @@ header nav a:nth-child(2n-1) {
 h1 {
     font-size: 3rem;
     line-height: 105%;
+    text-align: left;
 }
 
 h2 {
