@@ -61,6 +61,7 @@ header nav a:nth-child(2n-1) {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .hero-section {
@@ -73,6 +74,58 @@ header nav a:nth-child(2n-1) {
     margin: 1.25rem 0 0 auto;
     max-width: 100%;
 }
+/*Estilização Contato */
+.contato {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    width: 500px;
+    }
+section h2 {
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus {
+    border-radius: 16px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+/*Fim da estilização de contato */
 
 h1 {
     font-size: 3rem;
